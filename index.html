@@ -21,7 +21,7 @@
 
 <body data-spy="scroll" data-target="#navegacion-principal" data-offset="80">
 
-    <nav id="navegacion-principal" class="navbar barra fixed-top bg-transparent pt-3">
+    <nav id="navegacion-principal" class="navbar barra fixed-top bg-transparent pt-3 w-100">
         <div class="container flex-sm-row flex-column">
             <a href="#about-me" class="navbar-brand nav-link text-uppercase no-decoracion">Cházaro</a>
             <ul class="nav nav-pills text-uppercase d-flex flex-nowrap">
@@ -53,9 +53,9 @@
                 </div>
                 <div class="col-lg-6 ml-md-5">
                     <h2 class="mt-3 text-left pt-md-5">Acerca de m&iacute;</h2>
-                    <p class="text-left">lugar de Nacimiento: México</p>
-                    <p class="text-left">estudios: Licenciado en contadur&iacute;a y finanzas</p>
-                    <p class="text-left mb-2">aptitudes: Autodidacta, responsable, proactivo.</p>
+                    <p class="text-left">Lugar de Nacimiento: México</p>
+                    <p class="text-left">Estudios: Licenciado en contadur&iacute;a y finanzas</p>
+                    <p class="text-left mb-2">Aptitudes: Autodidacta, responsable, proactivo.</p>
                     <a href="#skillset" class="no-decoracion linea nav-link px-0">
                         <p class="text-left mb-md-5"> <span>Skills</span></p>
                     </a>
@@ -70,7 +70,7 @@
             <div class="row">
                 <div class="col-md-6 m-0">
                     <h2 class="text-uppercase text-white text-center text-md-left pt-5 skills-reveal">Skills</h2>
-                    <p class="mt-5 mt-md-1 text-uppercase text-center text-md-left skills-reveal">High skills</p>
+                    <p class="mt-5 mt-md-1 text-uppercase text-center text-md-left skills-reveal">Hard skills</p>
                 </div>
                 <div class="col-md-6 mt-2 mt-md-5 pt-md-5 pt-0">
                     <div class="row">
@@ -127,7 +127,7 @@
                 </div>
                 <!--col-md-6--->
                 <div class="col-md-6 mt-5">
-                    <p class="mt-2 text-uppercase text-center text-md-left skills-reveal">Lower Skills</p>
+                    <p class="mt-2 text-uppercase text-center text-md-left skills-reveal">soft Skills</p>
                 </div>
                 <div class="col-md-6 mt-2 mt-md-5 mb-5">
                     <div class="row">
@@ -148,11 +148,37 @@
             <div class="row">
                 <div class="col-md-6 col-lg-3 pb-md-5">
                     <div class="card mb-4">
+                        <a href="#" data-target="#certificado_10" data-toggle="modal">
+                            <img src="img/Certificado10.jpg" alt="certificado" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Escuela de JavaScript</h3>
+                        </div>
+                        <!--card-body-->
+                    </div>
+                    <!--.card-->
+                </div>
+                <!--.col-md-6-->
+                <div class="col-md-6 col-lg-3 pb-md-5">
+                    <div class="card mb-4">
                         <a href="#" data-target="#certificado_1" data-toggle="modal">
                             <img src="img/Certificado1.jpg" alt="certificado" class="card-img-top">
                         </a>
                         <div class="card-body">
                             <h3 class="card-title text-center">JavaScript Moderno</h3>
+                        </div>
+                        <!--card-body-->
+                    </div>
+                    <!--.card-->
+                </div>
+                <!--.col-md-6-->
+                <div class="col-md-6 col-lg-3 pb-md-5">
+                    <div class="card mb-4">
+                        <a href="#" data-target="#certificado_11" data-toggle="modal">
+                            <img src="img/Certificado11.jpg" alt="certificado" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title text-center">JavaScript Profesional</h3>
                         </div>
                         <!--card-body-->
                     </div>
@@ -263,17 +289,58 @@
                     <!--.card-->
                 </div>
                 <!--.col-md-6-->
+                <div class="col-md-6 col-lg-3 pb-md-5">
+                    <div class="card mb-4">
+                        <a href="#" data-target="#certificado_12" data-toggle="modal">
+                            <img src="img/Certificado12.jpg" alt="certificado" class="card-img-top">
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title text-center">Webpack</h3>
+                        </div>
+                        <!--card-body-->
+                    </div>
+                    <!--.card-->
+                </div>
+                <!--.col-md-6-->
             </div>
         </div>
     </div>
 
     <!--Modal Fade-->
+    <div class="modal fade" id="certificado_10" tabindex="-1" role="dialog" aria-labelledby="Imagen 1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/Certificado10.jpg" alt="certificado1" class="img-fluid">
+                </div>
+                <!--modal-body-->
+            </div>
+            <!--modal-content-->
+        </div>
+        <!--modal-dialog-->
+    </div>
+    <!--modal-->
     <div class="modal fade" id="certificado_1" tabindex="-1" role="dialog" aria-labelledby="Imagen 1"
         aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-body">
                     <img src="img/Certificado1.jpg" alt="certificado1" class="img-fluid">
+                </div>
+                <!--modal-body-->
+            </div>
+            <!--modal-content-->
+        </div>
+        <!--modal-dialog-->
+    </div>
+    <!--modal-->
+    <div class="modal fade" id="certificado_11" tabindex="-1" role="dialog" aria-labelledby="Imagen 1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/Certificado11.jpg" alt="certificado1" class="img-fluid">
                 </div>
                 <!--modal-body-->
             </div>
@@ -386,6 +453,20 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <img src="img/Certificado9.jpg" alt="certificado1" class="img-fluid">
+                </div>
+                <!--modal-body-->
+            </div>
+            <!--modal-content-->
+        </div>
+        <!--modal-dialog-->
+    </div>
+    <!--modal-->
+    <div class="modal fade" id="certificado_12" tabindex="-1" role="dialog" aria-labelledby="Imagen 1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/Certificado12.jpg" alt="certificado1" class="img-fluid">
                 </div>
                 <!--modal-body-->
             </div>
